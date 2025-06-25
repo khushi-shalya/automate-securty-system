@@ -1,0 +1,25 @@
+# Core CLI and UI Enhancements
+click==8.1.7            # For powerful command-line interface
+rich==13.7.1            # For beautiful console output (color, tables, progress bars)
+
+# Networking & Scanning
+requests==2.31.0        # For making HTTP requests (e.g., banner grabbing or web status check)
+dnspython==2.6.1        # For DNS and subdomain resolution
+scapy==2.5.0            # For low-level network scanning and packet manipulation
+
+# Concurrency & Performance
+tqdm==4.66.4            # For progress bars in loops
+aiohttp==3.9.5          # For asynchronous HTTP requests (faster scanning)
+asyncio==3.4.3          # Async I/O (built-in in Python 3.7+, added for pip compatibility)
+
+# File handling / Output
+pandas==2.2.2           # For organizing and exporting scan results (CSV/Excel)
+openpyxl==3.1.2         # Required by pandas for Excel support
+
+# Optional: Web App (if building a GUI for scanning)
+Flask==3.0.3            # Lightweight web framework to build a web interface
+gunicorn==22.0.0        # Production server for Flask
+
+# Optional: Security and OSINT Tools
+shodan==1.30.1          # Interface with Shodan API to enrich scanning results
+python-whois==0.8.0     # For WHOIS lookups
